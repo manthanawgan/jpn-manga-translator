@@ -6,7 +6,7 @@ import cv2
 
 reader = easyocr.Reader(['ja', 'en'])
 
-result = reader.readtext('demo-image-jpn.jpeg', detail =1)
+result = reader.readtext('thank-you-in-jpn.jpeg', detail =0, paragraph = False)
 
 # img = cv2.imread('demo-image-jpn.jpeg')
 # result = reader.readtext(img)
